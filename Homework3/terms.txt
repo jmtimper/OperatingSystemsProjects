@@ -1,0 +1,4 @@
+Wait set (in Java) - is a set of threads in Java that contain threads that are waiting. The wait set starts out as empty and adds/removes threads based on methods like Object.wait, Object.notify, and Object.notifyAll. 
+Spinlock - is a lock that causes a thread to repeatedly spin in a loop checking to see if the lock is available.
+Wait-for graph - is a directed graph that is used for deadlock detection.
+Stall (in memory access) - is a delay in execution of an instruction in the instruction pipeline

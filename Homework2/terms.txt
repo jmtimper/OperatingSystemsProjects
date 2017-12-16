@@ -1,0 +1,4 @@
+Non-preemptive scheduler - A scheduler that runs tasks to completion and cannot be interrupted.
+Heterogeneous processors - a system that uses more than one kind of processor, this system gain performance and energy effiviency
+User threads - threads that are supported above the kernel and are managed by the user (not the kernel)
+Remainder section - The remaining code that comes after the critical section in the critical section problem

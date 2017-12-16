@@ -1,0 +1,4 @@
+External fragmentation - wasted memory between allocated regions
+TLB flush - flushes the TLB whenever there is a context switch.
+Dynamic loading - loads parts of the program when they are needed and replaces old subroutines after they run with new subroutines.
+Lazy swapper - rather than swapping the entire process into main memory, a lazy swapper never swaps a page into memory unless that page will be needed.

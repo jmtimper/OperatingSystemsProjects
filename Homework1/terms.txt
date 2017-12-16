@@ -1,0 +1,7 @@
+Von Neumann architechture - is a computer architechture that has three main parts: the i/o unit, the storage unit, and the processing unit. These three main parts are connected by buses. The programs and data are stored the same way in the same memory system . The von Neumann Architecture repeats the cycle of fetch instructions from memory, decode instructions and store operands to registers, execute instructions on operands and store the result back to memory. This cycle is repeated until all processes have been completed.
+
+multiprogramming - organizing code and data so that the CPU always has one job to execute, it increases CPU utilization
+
+Status register (on a device controller) - is an 8-bit reserved memory location which contains 8 different flags that are used to keep the different status of the execution and selection of other execution related things like mathematical operations and selection the variable addressing method.
+
+Text section (of program memory) - is the physical words in a program, the program code

@@ -1,0 +1,4 @@
+computation migration - perform subroutines on the host with the required resources
+dynamic routing - a network technique that lets teh routers to select paths according to real-time logical network layout changes. In short it provides optimal routing data.
+limited copy (for access rights) - A limited copy of the commands that are able to be operated on an object
+breach of availability - involves unauthorized destruction of data

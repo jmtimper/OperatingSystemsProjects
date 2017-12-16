@@ -1,0 +1,8 @@
+(a) Reason 1: the RLIMIT_FSIZE resource limit is encountered (see setrlimit(2)), or the call was interrupted by a signal handler after having written less than count bytes.
+    Reason 2: there is  insufficient  space  on  the underlying  physical  medium
+
+(b) int fd = open(file, O_NONBLOCK | O_RDWR, 0600); When the file is ready, the O_NONBLOCK access mode string will send a SIGIO signal if used when calling open()
+
+(c) The pipe will fail with the EMFILE error meaning the per-process limit on the number of open files has been reached. The EBFILE will be equal to the value of errno.
+
+(d) Wait will return with an error and a value of -1. Errno will be set to ECHILD which means there is no more children the process has to wait on.
